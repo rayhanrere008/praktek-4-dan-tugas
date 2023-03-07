@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="jquery-3.6.3.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".sembunyi").click(function() {$("#foto").hide("slow") });
+                $(".tampil").click(function() {$("#foto").show("slow") });
+                $(".sembunyi1").click(function() {$("#foto1").hide("slow1") });
+                $(".tampil1").click(function() {$("#foto1").show("slow1") });
+            });
+        </script>
+    </head>
+    <body>
+        <button class="sembunyi">sembunyikan</button>
+        <button class="tampil">tampilkan</button>
+        <p><img id="foto" src="games-pubg.jpg"></p>
+        <button class="sembunyi1">sembunyikan</button>
+        <button class="tampil1">tampilkan</button>
+        <p><img id="foto1" src="Onepiece.jpg"></p>
+    </body>
+</html>

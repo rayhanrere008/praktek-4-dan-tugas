@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <h4>klik 2 kali pada setiap kotak untuk mengubah warnanya</h4>
+        <script type="text/javascript" src="jquery-3.6.3.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $( "#kotak" ).dblclick(function() {    
+                    $( "#kotak" ).css( "background-color", "red");
+                });
+                $( "#kotak1" ).dblclick(function() {    
+                    $( "#kotak1" ).css( "background-color", "blue" );
+                });
+                $( "#kotak2" ).dblclick(function() {    
+                    $( "#kotak2" ).css( "background-color", "black" );
+                });
+                $( "#kotak3" ).dblclick(function() {    
+                    $( "#kotak3" ).css( "background-color", "green" );
+                });
+            });
+        </script>
+        <style type="text/css">
+            #kotak{
+                width: 40px;
+                height: 40px;
+                background: yellow;
+                float: left;
+                margin: 1%;
+            }
+            #kotak1{
+                width: 40px;
+                height: 40px;
+                background: yellow;
+                float: left;
+                margin: 1%;
+            }
+            #kotak2{
+                width: 40px;
+                height: 40px;
+                background: yellow;
+                float: left;
+                margin: 1%;
+            }
+            #kotak3{
+                width: 40px;
+                height: 40px;
+                background: yellow;
+                float: left;
+                margin: 1%;
+            }
+        </style>
+    </head>
+    <body>
+        <h3 id="kotak"></h3>
+        <h3 id="kotak1"></h3>
+        <h3 id="kotak2"></h3>
+        <h3 id="kotak3"></h3>
+    </body>
+</html>
